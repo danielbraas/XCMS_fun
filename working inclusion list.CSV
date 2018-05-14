@@ -1,0 +1,175 @@
+﻿Mass [m/z],Formula [M],Formula type,Species,CS [z],Polarity,Start [min],End [min],(N)CE,(N)CE type,MSX ID,Comment
+244.03535,C6H14O8P,Chemical formula,- H,1,Negative,2.50,,35,NCE,,2-deoxygluxose-6-phosphate
+163.06120,,,,1,Negative,2.50,,35,NCE,,2-DG
+147.02990,,,,1,Negative,2.50,,35,NCE,,2-HG
+131.07137,,,,1,Negative,2.50,,35,NCE,,2-HIC
+159.02990,,,,1,Negative,2.50,,35,NCE,,2-Oxoadipate
+130.01458,,,,1,Negative,2.50,,35,NCE,,2-Oxosuccinamate
+184.98566,,,,1,Negative,2.50,,35,NCE,,3PG
+181.05063,,,,1,Negative,2.50,,35,NCE,,4-OH-PheLac
+298.09684,,,,1,Positive,2.50,,35,NCE,,5'M-adenosine
+128.03532,,,,1,Negative,2.50,,35,NCE,,5-Oxoproline
+274.00953,,,,1,Negative,2.50,,35,NCE,,6P-gluconate
+268.10403,,,,1,Positive,2.50,,35,NCE,,A
+204.12303,,,,1,Positive,2.50,,35,NCE,,Ac-carnitine
+146.11756,,,,1,Positive,2.50,,35,NCE,,Ac-choline
+173.00916,,,,1,Negative,2.50,,35,NCE,,Aconitate
+136.06177,,,,1,Positive,2.50,,35,NCE,,Adenine
+426.02214,,,,1,Negative,2.50,,35,NCE,,ADP
+145.01425,,,,1,Negative,2.50,,35,NCE,,a-KG
+90.05495,,,,1,Positive,2.50,,35,NCE,,Ala
+157.03671,,,,1,Negative,2.50,,35,NCE,,Allantoin
+348.06963,,,,1,Positive,2.50,,35,NCE,,AMP
+175.11895,,,,1,Positive,2.50,,35,NCE,,Arg
+289.11536,,,,1,Negative,2.50,,35,NCE,,Arg-Succ
+131.04622,,,,1,Negative,2.50,,35,NCE,,Asn
+132.03023,,,,1,Negative,2.50,,35,NCE,,Asp
+505.98847,,,,1,Negative,2.50,,35,NCE,,ATP
+90.05495,,,,1,Positive,2.50,,35,NCE,,b-Ala
+118.08625,,,,1,Positive,2.50,,35,NCE,,Betaine
+243.08089,,,,1,Negative,2.50,,35,NCE,,Biotin
+244.09280,,,,1,Positive,2.50,,35,NCE,,C
+162.11247,,,,1,Positive,2.50,,35,NCE,,Carnitine
+402.01090,,,,1,Negative,2.50,,35,NCE,,CDP
+489.11461,,,,1,Positive,2.50,,35,NCE,,CDP-choline
+445.05310,,,,1,Negative,2.50,,35,NCE,,CDP-EtA
+104.10699,,,,1,Positive,2.50,,35,NCE,,Choline
+147.04515,,,,1,Negative,2.50,,35,NCE,,Cinnamic acid
+191.01973,,,,1,Negative,2.50,,35,NCE,,Cit
+129.01933,,,,1,Negative,2.50,,35,NCE,,Citraconic acid
+176.10297,,,,1,Positive,2.50,,35,NCE,,Citrulline
+322.04457,,,,1,Negative,2.50,,35,NCE,,CMP
+132.07675,,,,1,Positive,2.50,,35,NCE,,Creatine
+114.06619,,,,1,Positive,2.50,,35,NCE,,Creatinine
+481.97723,,,,1,Negative,2.50,,35,NCE,,CTP
+223.07470,C7H14N2O4S,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,Cystathionine
+122.02703,C3H7NO2S,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,Cysteine
+241.03112,C6H12N2O4S2,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,Cystine
+112.05054,,,,1,Positive,2.50,,35,NCE,,Cytosine
+252.10864,,,,1,Positive,2.50,,35,NCE,,dA
+332.07545,,,,1,Positive,2.50,,35,NCE,,dAMP
+489.99355,,,,1,Negative,2.50,,35,NCE,,dATP
+226.08333,,,,1,Negative,2.50,,35,NCE,,dC
+386.01599,,,,1,Negative,2.50,,35,NCE,,dCDP
+306.04966,,,,1,Negative,2.50,,35,NCE,,dCMP
+465.98232,,,,1,Negative,2.50,,35,NCE,,dCTP
+268.10354,,,,1,Positive,2.50,,35,NCE,,dG
+426.02214,,,,1,Negative,2.50,,35,NCE,,dGDP
+346.05581,,,,1,Negative,2.50,,35,NCE,,dGMP
+505.98847,,,,1,Negative,2.50,,35,NCE,,dGTP
+168.99075,,,,1,Negative,2.50,,35,NCE,,DHAP
+157.02548,C5H6N2O4,Chemical formula,- H,1,Negative,2.50,,35,NCE,,Dihydroorotic acid
+113.03565,,,,1,Negative,2.50,,35,NCE,,Dihydrouracil
+104.07060,,,,1,Positive,2.50,,35,NCE,,DMG
+133.05063,,,,1,Negative,2.50,,35,NCE,,dRib
+213.01696,,,,1,Negative,2.50,,35,NCE,,dRibP
+273.03809,,,,1,Negative,2.50,,35,NCE,,dS7P
+241.08274,,,,1,Negative,2.50,,35,NCE,,dT
+321.04933,,,,1,Negative,2.50,,35,NCE,,dTMP
+480.98199,,,,1,Negative,2.50,,35,NCE,,dTTP
+227.06734,,,,1,Negative,2.50,,35,NCE,,dU
+466.96634,,,,1,Negative,2.50,,35,NCE,,dUTP
+338.98877,,,,1,Negative,2.50,,35,NCE,,"F1,6BP"
+440.13240,,,,1,Negative,2.50,,35,NCE,,Folate
+179.05611,,,,1,Negative,2.50,,35,NCE,,Fru
+115.00368,,,,1,Negative,2.50,,35,NCE,,Fum
+284.09895,,,,1,Positive,2.50,,35,NCE,,G
+338.98877,,,,1,Negative,2.50,,35,NCE,,"G1,6BP"
+168.99075,,,,1,Negative,2.50,,35,NCE,,G3P
+259.02244,,,,1,Negative,2.50,,35,NCE,,G6P-F6P
+442.01705,,,,1,Negative,2.50,,35,NCE,,GDP
+179.05611,,,,1,Negative,2.50,,35,NCE,,Glc
+195.05103,,,,1,Negative,2.50,,35,NCE,,GlcA
+180.08665,,,,1,Positive,2.50,,35,NCE,,GlcN
+258.03843,,,,1,Negative,2.50,,35,NCE,,GlcN-6P
+222.09721,,,,1,Positive,2.50,,35,NCE,,GlcNAc
+300.04899,,,,1,Negative,2.50,,35,NCE,,GlcNAc-6P
+145.06187,,,,1,Negative,2.50,,35,NCE,,Gln
+146.04588,,,,1,Negative,2.50,,35,NCE,,Glu
+193.03538,,,,1,Negative,2.50,,35,NCE,,GlucA
+76.03930,,,,1,Positive,2.50,,35,NCE,,Gly
+91.04007,,,,1,Negative,2.50,,35,NCE,,Glycerol
+171.00640,,,,1,Negative,2.50,,35,NCE,,Glycerol-2-P
+171.00640,,,,1,Negative,2.50,,35,NCE,,Glycerol-3-P
+362.05072,,,,1,Negative,2.50,,35,NCE,,GMP
+308.09032,,,,1,Positive,2.50,,35,NCE,,GSH
+613.15924,,,,1,Positive,2.50,,35,NCE,,GSSG
+521.98338,,,,1,Negative,2.50,,35,NCE,,GTP
+156.07675,,,,1,Positive,2.50,,35,NCE,,His
+136.04268,C4H9NO2S,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,Homocysteine
+112.93726,,,,1,Negative,2.50,,35,NCE,,HS2O3
+137.04579,,,,1,Positive,2.50,,35,NCE,,Hypoxanthine
+347.03982,,,,1,Negative,2.50,,35,NCE,,IMP
+269.08805,,,,1,Positive,2.50,,35,NCE,,Inosine
+179.05611,,,,1,Negative,2.50,,35,NCE,,Inositol
+115.07645,,,,1,Negative,2.50,,35,NCE,,Isocaproate
+89.02442,,,,1,Negative,2.50,,35,NCE,,Lac
+132.10191,,,,1,Positive,2.50,,35,NCE,,Leu/Ile
+147.11280,,,,1,Positive,2.50,,35,NCE,,Lys
+133.01425,,,,1,Negative,2.50,,35,NCE,,Mal
+150.05833,,,,1,Positive,2.50,,35,NCE,,Met
+664.11640,,,,1,Positive,2.50,,35,NCE,,NAD+
+666.13205,,,,1,Positive,2.50,,35,NCE,,NADH
+742.06818,,,,1,Negative,2.50,,35,NCE,,NADP+
+744.08383,,,,1,Negative,2.50,,35,NCE,,NADPH
+175.03604,,,,1,Negative,2.50,,35,NCE,,N-Carbamoyl-L-aspartate
+123.05529,,,,1,Positive,2.50,,35,NCE,,Nicotinamide
+133.09715,,,,1,Positive,2.50,,35,NCE,,Ornithine
+255.23295,,,,1,Negative,2.50,,35,NCE,,Palmitate
+218.10340,,,,1,Negative,2.50,,35,NCE,,Pantothenate
+758.56943,,,,1,Positive,2.50,,35,NCE,,PC(34:2)
+810.60073,,,,1,Positive,2.50,,35,NCE,,PC(38:4)
+184.07332,,,,1,Positive,2.50,,35,NCE,,P-Choline
+212.04308,,,,1,Positive,2.50,,35,NCE,,P-Creatine
+166.97510,,,,1,Negative,2.50,,35,NCE,,PEP
+140.01182,,,,1,Negative,2.50,,35,NCE,,P-EtA
+166.08625,,,,1,Positive,2.50,,35,NCE,,Phe
+130.08625,,,,1,Positive,2.50,,35,NCE,,Pipecolate
+96.96962,,,,1,Negative,2.50,,35,NCE,,PO4
+182.97001,,,,1,Negative,2.50,,35,NCE,,P-OH-Pyr
+176.93595,,,,1,Negative,2.50,,35,NCE,,PPi
+116.07060,,,,1,Positive,2.50,,35,NCE,,Pro
+132.06552,,,,1,Positive,2.50,,35,NCE,,Pro-OH
+388.94454,,,,1,Negative,2.50,,35,NCE,,PRPP
+184.00165,,,,1,Negative,2.50,,35,NCE,,P-Ser
+87.00877,,,,1,Negative,2.50,,35,NCE,,Pyr
+168.06570,,,,1,Negative,2.50,,35,NCE,,Pyridoxine
+229.01188,,,,1,Negative,2.50,,35,NCE,,R5P
+149.04555,,,,1,Negative,2.50,,35,NCE,,Rib
+228.02780,,,,1,Negative,2.50,,35,NCE,,RibN-5P
+289.03301,,,,1,Negative,2.50,,35,NCE,,S7P
+399.14451,C15H22N6O5S,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,SAM
+90.05495,,,,1,Positive,2.50,,35,NCE,,Sarc
+104.03532,,,,1,Negative,2.50,,35,NCE,,Ser
+173.04555,,,,1,Negative,2.50,,35,NCE,,Shikimate
+117.01933,,,,1,Negative,2.50,,35,NCE,,Succ
+241.08299,,,,1,Negative,2.50,,35,NCE,,T
+120.06552,,,,1,Positive,2.50,,35,NCE,,Thr
+125.03565,,,,1,Negative,2.50,,35,NCE,,Thymine
+138.05495,,,,1,Positive,2.50,,35,NCE,,Trigonelline
+205.09715,,,,1,Positive,2.50,,35,NCE,,Trp
+182.08117,,,,1,Positive,2.50,,35,NCE,,Tyr
+138.09134,,,,1,Positive,2.50,,35,NCE,,Tyramine
+245.07681,,,,1,Positive,2.50,,35,NCE,,U
+402.99492,,,,1,Negative,2.50,,35,NCE,,UDP
+565.04774,,,,1,Negative,2.50,,35,NCE,,UDP-Glc
+606.07429,,,,1,Negative,2.50,,35,NCE,,UDP-GlcNAc
+323.02859,,,,1,Negative,2.50,,35,NCE,,UMP
+111.02000,,,,1,Negative,2.50,,35,NCE,,Uracil
+167.02106,,,,1,Negative,2.50,,35,NCE,,Uric Acid
+139.05020,,,,1,Positive,2.50,,35,NCE,,Urocanate
+482.96125,,,,1,Negative,2.50,,35,NCE,,UTP
+118.08625,,,,1,Positive,2.50,,35,NCE,,Val
+175.02481,,,,1,Negative,2.50,,35,NCE,,Vit-C
+151.02615,,,,1,Negative,2.50,,35,NCE,,Xanthine
+287.05209,C10H12N2O8,Chemical formula,- H,1,Negative,2.50,,35,NCE,,Orotidine
+157.02438,C5H4N2O4,Chemical formula,+ H,1,Positive,2.50,,35,NCE,,Orotate
+367.01842,C10H13N2O11P,Chemical formula,- H,1,Negative,2.50,,35,NCE,,O5P
+198.07608,C9H11NO4,Chemical formula,+ H,1,Positive,2.50,,30,NCE,,L-DOPA
+154.08626,C8H11NO2,Chemical formula,+ H,1,Positive,2.50,,30,NCE,,Dopamine
+196.06153,C9H11NO4,Chemical formula,- H,1,Negative,2.50,,30,NCE,,L-DOPA
+152.07170,C8H11NO2,Chemical formula,- H,1,Negative,2.50,,30,NCE,,Dopamine
+514.28440,C26H45NO7S,Chemical formula,- H,1,Negative,2.50,,30,NCE,,Taurocholic acid
+87.04515,C4H8O2,Chemical formula,- H,1,Negative,2.50,,30,NCE,,Butyric Acid
+101.02442,C4H6O3,Chemical formula,- H,1,Negative,2.50,,30,NCE,,Ketobutyric acid
+129.05572,C6H10O3,Chemical formula,- H,1,Negative,2.50,,30,NCE,,Ketoisocaproic acid
