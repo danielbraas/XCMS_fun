@@ -24,25 +24,6 @@ untargeted_PM <- xcmsRaw(files[2], includeMSn = T)
 
 #Function to look for MS2 for particular compound and spits out table with matching precursors
 
-where.MS2 <- function(object, name){
-  inc <- filter(inclusion, Name==name)
-  EIC <- data.frame('RT'=object@scantime, 'Intensity'=rawEIC(object, mzrange=inc[3:4])$intensity)
-  EIC$RT <- EIC$RT / 60
-  result <- data.frame('RT' = object@msnRt / 60,
-                       'Precursor'= object@msnPrecursorMz,
-                       'Intensity' = object@msnPrecursorIntensity)
-  result$Index <- as.numeric(rownames(result))
-  result <- filter(result, Precursor > inc$minIon & Precursor < inc$maxIon)
-  graph <- ggplot(EIC, aes(RT, Intensity)) +
-    geom_line() +
-    geom_hline(yintercept=0) +
-    geom_point(data=result, aes(RT, Intensity), color='blue') +
-    theme_bw(base_size=14) +
-    labs(list(x='Retention time (min)', y='Intensity (A.U.)',
-              title=paste0('Extracted Ion Chromatogram of ',inc$Name,'\n Scan range: ',round(inc$minIon,4),' to ',round(inc$maxIon, 4))))
-  print(graph)
-  return(result)
-}
 
 targeted_MS2 <- data.frame('Index' = targeted@msnScanindex,
                            'RT' = targeted@msnRt / 60,
@@ -58,27 +39,6 @@ getMS2 <- function(object, scan){
   return(MS2)
 }
 
-where.MS2b <- function(object, ion, ppm=10){
-  
-  maxIon <- ion + ion * ppm / 1e6
-  minIon <- ion - ion * ppm / 1e6
-  EIC <- data.frame('RT'=object@scantime, 'Intensity'=rawEIC(object, mzrange=as.matrix(c(minIon,maxIon)))$intensity)
-  EIC$RT <- EIC$RT / 60
-  result <- data.frame('RT' = object@msnRt / 60,
-                       'Precursor'= object@msnPrecursorMz,
-                       'Intensity' = object@msnPrecursorIntensity)
-  result$Index <- as.numeric(rownames(result))
-  result <- filter(result, Precursor >= minIon & Precursor <= maxIon)
-  graph <- ggplot(EIC, aes(RT, Intensity)) +
-    geom_line() +
-    geom_hline(yintercept=0, color='firebrick') +
-    geom_point(data=result, aes(RT, Intensity), color='blue') +
-    theme_bw(base_size=14) +
-    labs(list(x='Retention time (min)', y='Intensity (A.U.)',
-              title=paste0('Extracted Ion Chromatogram of: ', ion,'\n Scan range: ',round(minIon,4),' to ',round(maxIon, 4))))
-  print(graph)
-  return(result)
-}
 
 what.MS2 <- function(object, srange = object@mzrange, RTrange = range(object@msnRt)/60, ppm=10){
 
@@ -142,6 +102,32 @@ binscans <- function(ions, ppm=10){
 }
   
   
-
-
-
+where.MS2 <- function(object, name='', inc, ion, ppm=10){
+  
+  if (name != '' & missing(inc)==F & missing(ion)==T){
+    inc <- filter(inc, Name==name)
+    maxIon <- inc$maxIon
+    minIon <- inc$minIon
+    ion <- inc$Ion
+  }
+  else {
+    maxIon <- ion + ion * ppm / 1e6
+    minIon <- ion - ion * ppm / 1e6
+  }
+  EIC <- data.frame('RT'=object@scantime, 'Intensity'=rawEIC(object, mzrange=as.matrix(c(minIon,maxIon)))$intensity)
+  EIC$RT <- EIC$RT / 60
+  result <- data.frame('RT' = object@msnRt / 60,
+                       'Precursor'= object@msnPrecursorMz,
+                       'Intensity' = object@msnPrecursorIntensity)
+  result$Index <- as.numeric(rownames(result))
+  result <- filter(result, Precursor >= minIon & Precursor <= maxIon)
+  graph <- ggplot(EIC, aes(RT, Intensity)) +
+    geom_line() +
+    geom_hline(yintercept=0, color='firebrick') +
+    geom_point(data=result, aes(RT, Intensity), color='blue') +
+    theme_bw(base_size=14) +
+    labs(list(x='Retention time (min)', y='Intensity (A.U.)',
+              title=paste0('Extracted Ion Chromatogram of: ', ion,'\n Scan range: ',round(minIon,4),' to ',round(maxIon, 4))))
+  print(graph)
+  return(result)
+}
